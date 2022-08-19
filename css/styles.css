@@ -1,0 +1,60 @@
+a {
+  color: rgba(0,255,127.5,1);
+}
+
+a:visited {
+  color: rgba(0,255,127.5,0.4);
+}
+
+body {
+  background-color: #ddd;
+  font-size: 1.6rem;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+#headline, #headline + p  {
+  text-align: center;
+}
+
+html {
+  font-size: 10px;
+}
+
+img {
+  max-width: 100%;
+  margin: auto;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#img-div {
+  margin: auto;
+}
+
+#main {
+  background-color: #333;
+  color: #eee;
+  padding: 15px;
+}
+
+@media (min-width: 720px)
+{
+  h2 {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+  #main {
+    margin: 30px 8px;
+  }
+}
